@@ -15,7 +15,7 @@ Production domains:
 | FlowPay Checkout | `pixuno.xyz` and `www.pixuno.xyz` |
 | FlowPay Merchant | `dashboard.pixuno.xyz` |
 
-`FLOWPAY_API_URL` must be the public HTTPS URL of the deployed FlowPay API. The
+Set `FLOWPAY_API_URL=https://api.pixuno.xyz` in both Vercel projects. The
 API keys are server-only variables; do not prefix them with `NEXT_PUBLIC_`.
 
 For each Vercel project, import this repository, select the root directory from
